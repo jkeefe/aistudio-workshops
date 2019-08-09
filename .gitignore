@@ -1,0 +1,35 @@
+# John Keefe’s global git ignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+.env
+
+*.log
+scratch.*
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Node Dependencies 
+# (use npm install to load them instead, or see readme)
+node_modules
+
+# Jupyter notebook checkpoint folders
+.ipynb_checkpoints
+
