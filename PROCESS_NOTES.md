@@ -12,5 +12,4 @@ After compressing, do:
 
 https://stackoverflow.com/questions/50099869/ffmpeg-output-images-filename-with-time-position
 
-`ffmpeg -i source -vf fps=1,select='not(mod(t,5))' -vsync 0 -frame_pts 1 %d.jpg
-`
+`ffmpeg -i source -vf fps=1,select='not(mod(t,5))' -vsync 0 -frame_pts 1 %d.jpg`
