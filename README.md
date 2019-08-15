@@ -27,7 +27,9 @@ Here's how to get started with these workshops uing Google Colaboatory.
 ![Click through the second warning](images/reset_runtimes.jpg)
 - Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
 ![Pick change runtime type](images/change_runtime.jpg)
+
 - Then form the "Hardware accellerator" dropdown, pick "GPU."
-<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=300> 
+
+<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=300 style="border:2px solid black"> 
 
 
