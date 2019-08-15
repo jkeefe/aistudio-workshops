@@ -17,16 +17,16 @@ Here's how to get started with these workshops uing Google Colaboatory.
 - Go to [Google Colaboratory](https://colab.research.google.com).
 - In the top bar of the welcome window, pick "Github."
 - Enter `quartz/aistudio-workshops` on the long blue line and press Return.
-!("./images/pick_github.jpg")
+![Choose "Github"](images/pick_github.jpg)
 - From the list that appears, pick the notebook for the lesson you'd like.
-!("./images/pick_notebook.jpg")
+![Pick the notebook matching the lesson](images/pick_notebook.jpg)
 - You want to run the first code cell in the notebook, by tapping the "play" button on the cell that includes the code `## ALL GOOGLE COLAB USERS RUN THIS CELL`
-!("./images/play_first_cell.jpg")
+![Play the first code cell of the notebook](images/play_first_cell.jpg)
 - You will get a couple of fun warnings:
-!("./images/non_google_warning.jpg")
-!("./images/reset_runtimes.jpg")
+![Click through the first warning](images/non_google_warning.jpg)
+![Click through the second warning](images/reset_runtimes.jpg)
 - Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
-!("./images/change_runtime.jpg")
+![Pick change runtime type](images/change_runtime.jpg)
 - Then form the "Hardware accellerator" dropdown, pick "GPU."
-!("./images/pick_gpu.jpg")
+![Pick GPU](images/pick_gpu.jpg)
 
