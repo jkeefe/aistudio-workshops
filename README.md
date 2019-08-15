@@ -17,19 +17,29 @@ Here's how to get started with these workshops uing Google Colaboatory.
 - Go to [Google Colaboratory](https://colab.research.google.com).
 - In the top bar of the welcome window, pick "Github."
 - Enter `quartz/aistudio-workshops` on the long blue line and press Return.
-![Choose "Github"](images/pick_github.jpg)
+
+<img src = "./images/pick_github.jpg" alt="Choose Github" width=400> 
+
 - From the list that appears, pick the notebook for the lesson you'd like.
-![Pick the notebook matching the lesson](images/pick_notebook.jpg)
+
+<img src = "./images/pick_notebook.jpg" alt="Pick the notebook matching the lesson" width=400> 
+
 - You want to run the first code cell in the notebook, by tapping the "play" button on the cell that includes the code `## ALL GOOGLE COLAB USERS RUN THIS CELL`
-![Play the first code cell of the notebook](images/play_first_cell.jpg)
+
+<img src = "./images/play_first_cell.jpg" alt="Play the first code cell of the notebook" width=400> 
+
 - You will get a couple of fun warnings:
-![Click through the first warning](images/non_google_warning.jpg)
-![Click through the second warning](images/reset_runtimes.jpg)
+
+<img src = "./images/non_google_warning.jpg" alt="Click through the first warning" width=400> 
+
+<img src = "./images/reset_runtimes.jpg" alt="Click through the second warning" width=400> 
+
 - Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
-![Pick change runtime type](images/change_runtime.jpg)
+
+<img src = "./images/change_runtime.jpg" alt="Pick change runtime type" width=300> 
 
 - Then form the "Hardware accellerator" dropdown, pick "GPU."
 
-<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=300 style="border:2px solid black"> 
+<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=400> 
 
 
