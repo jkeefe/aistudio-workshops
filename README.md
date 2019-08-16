@@ -24,6 +24,14 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 <img src = "./images/pick_notebook.jpg" alt="Pick the notebook matching the lesson" width=600> 
 
+- Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
+
+<img src = "./images/change_runtime.jpg" alt="Pick change runtime type" width=400> 
+
+- Then form the "Hardware accellerator" dropdown, pick "GPU."
+
+<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=400> 
+
 - You want to run the first code cell in the notebook, by tapping the "play" button on the cell that includes the code `## ALL GOOGLE COLAB USERS RUN THIS CELL`
 
 <img src = "./images/play_first_cell.jpg" alt="Play the first code cell of the notebook" width=700> 
@@ -34,12 +42,6 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 <img src = "./images/reset_runtimes.jpg" alt="Click through the second warning" width=500> 
 
-- Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
 
-<img src = "./images/change_runtime.jpg" alt="Pick change runtime type" width=400> 
-
-- Then form the "Hardware accellerator" dropdown, pick "GPU."
-
-<img src = "./images/pick_gpu.jpg" alt="Pick GPU" width=400> 
 
 
