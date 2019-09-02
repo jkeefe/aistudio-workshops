@@ -18,11 +18,11 @@ Here's how to get started with these workshops uing Google Colaboatory.
 - In the top bar of the welcome window, pick "Github."
 - Enter `quartz/aistudio-workshops` on the long blue line and press Return.
 
-<img src = "./images/pick_github.jpg" alt="Choose Github" width=600> 
+<img src = "./images/pick_github2.jpg" alt="Choose Github" width=600> 
 
 - From the list that appears, pick the notebook for the lesson you'd like.
 
-<img src = "./images/pick_notebook.jpg" alt="Pick the notebook matching the lesson" width=600> 
+<img src = "./images/pick_notebook2.jpg" alt="Pick the notebook matching the lesson" width=600> 
 
 - Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
 
