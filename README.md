@@ -16,11 +16,11 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 - Go to [Google Colaboratory](https://colab.research.google.com).
 - In the top bar of the welcome window, pick "Github."
-- Enter `quartz/aistudio-workshops` on the long blue line and press Return.
+- Enter `quartz` on the long blue line and press Return.
 
 <img src = "./images/pick_github2.jpg" alt="Choose Github" width=600> 
 
-- From the list that appears, pick the notebook for the lesson you'd like.
+- From the list that appears, make sure `aistudio-workshops` is the selected repository and then click on the notebook for the lesson you'd like.
 
 <img src = "./images/pick_notebook2.jpg" alt="Pick the notebook matching the lesson" width=600> 
 
