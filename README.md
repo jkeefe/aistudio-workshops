@@ -22,7 +22,7 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 - From the list that appears, make sure `aistudio-workshops` is the selected repository and then click on the notebook for the lesson you'd like.
 
-<img src = "./images/pick_notebook2.jpg" alt="Pick the notebook matching the lesson" width=600> 
+<img src = "./images/pick_notebook_v3.jpg" alt="Pick the notebook matching the lesson" width=600> 
 
 - Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
 
