@@ -2,13 +2,17 @@
 
 This is where I leave notes to myself along the way. 
 
-## Removing __MACOSX file from zip file
+## Removing `__MACOSX` file from zip file
 
 After compressing, do:
 
 ```
 zip -d bikes_data.zip "__MACOSX*"
 zip -d bikes_data.zip "*.DS_Store"
+
+zip -d austin_tweet_data.zip "__MACOSX*"
+zip -d austin_tweet_data.zip "*.DS_Store"
+
 ```
 
 ## Seconds in the file name:
