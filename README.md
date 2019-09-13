@@ -2,6 +2,13 @@
 
 This code supports workshops taught by members of the Quartz AI Studio for getting journalists learning machine learning.
 
+## Resources
+
+Quartz AI Studio: https://qz.ai
+fast.ai: https://fast.ai
+practical deep learning: https://course.fast.ai/
+
+
 ## A note about notebooks
 
 These workshops exist in Jupyter Notebooks (formerly IPython notebooks, which is why notebook files end in `.ipynb`). Because we'll be doing machine learning, we also need a GPU, which is a fast parallel-processor that speeds up the math we use for training models. 
