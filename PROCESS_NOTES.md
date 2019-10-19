@@ -13,6 +13,8 @@ zip -d bikes_data.zip "*.DS_Store"
 zip -d austin_tweet_data.zip "__MACOSX*"
 zip -d austin_tweet_data.zip "*.DS_Store"
 
+aws s3 cp chopper_data.zip s3://qz-aistudio-public/workshops/chopper_data.zip --acl public-read
+
 ```
 
 ## Seconds in the file name:
