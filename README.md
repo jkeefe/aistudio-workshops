@@ -4,9 +4,9 @@ This code supports workshops taught by members of the Quartz AI Studio for getti
 
 ## Resources
 
-Quartz AI Studio: https://qz.ai
-fast.ai: https://fast.ai
-practical deep learning: https://course.fast.ai/
+- Quartz AI Studio: https://qz.ai
+- fast.ai: https://fast.ai
+- practical deep learning: https://course.fast.ai/
 
 
 ## A note about notebooks
@@ -19,7 +19,7 @@ If you know how to spin up another platform – such as Amazon's EC2 – the not
 
 ## Getting started, with Google Colab
 
-Here's how to get started with these workshops uing Google Colaboatory.
+Here's how to get started with these workshops using Google Colaboatory.
 
 - Go to [Google Colaboratory](https://colab.research.google.com).
 - In the top bar of the welcome window, pick "Github."
@@ -31,7 +31,7 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 <img src = "./images/pick_notebook_v3.jpg" alt="Pick the notebook matching the lesson" width=600> 
 
-- Now we need to turn on the GPU! From the "Runtime" menu, pick "Change runtime type."
+- For many (though not all) of these lessons, we'll want to turn on the GPU. From the "Runtime" menu, pick "Change runtime type."
 
 <img src = "./images/change_runtime.jpg" alt="Pick change runtime type" width=400> 
 
@@ -43,12 +43,12 @@ Here's how to get started with these workshops uing Google Colaboatory.
 
 <img src = "./images/play_first_cell.jpg" alt="Play the first code cell of the notebook" width=700> 
 
-- You will get a couple of fun warnings:
+- You may get one or two warnings, which you can safely dismiss:
 
 <img src = "./images/non_google_warning.jpg" alt="Click through the first warning" width=500> 
 
 <img src = "./images/reset_runtimes.jpg" alt="Click through the second warning" width=500> 
 
-
+You're all set!
 
 

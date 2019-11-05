@@ -1,0 +1,379 @@
+      <!DOCTYPE html>
+      <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>README</title>
+            <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(92, 92, 92); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(51, 51, 51); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(92, 92, 92); border-color: rgb(214, 214, 214); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(214, 214, 214); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(0, 0, 0); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(214, 214, 214); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(0, 0, 0); background-color: rgb(240, 240, 240); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(245, 245, 245); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(0, 0, 0); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(214, 214, 214) rgb(214, 214, 214) rgb(199, 199, 199); border-image: initial; background-color: rgb(240, 240, 240); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; overflow-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { overflow-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; overflow-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.markdown-preview pre.editor-colors { user-select: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item input[type="checkbox"] { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-preview .task-list-item { list-style-type: none; }
+.markdown-preview code { text-shadow: none; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+.line-number.bracket-matcher.bracket-matcher {
+  color: #000;
+  background-color: #eee;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+.editor,
+.editor .gutter {
+  background-color: #000000;
+  color: #F8F8F8;
+}
+.editor.is-focused .cursor {
+  border-color: #A7A7A7;
+}
+.editor.is-focused .selection .region {
+  background-color: #AEE219;
+}
+.editor.is-focused .line-number.cursor-line-no-selection,
+.editor.is-focused .line.cursor-line {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.syntax--comment {
+  font-style: italic;
+  color: #AEAEAE;
+}
+.syntax--constant {
+  color: #3387CC;
+}
+.syntax--entity {
+  color: #89BDFF;
+}
+.syntax--keyword {
+  color: #E28964;
+}
+.syntax--storage {
+  color: #99CF50;
+}
+.syntax--string {
+  color: #65B042;
+}
+.syntax--support {
+  color: #9B859D;
+}
+.syntax--variable {
+  color: #3E87E3;
+}
+.syntax--invalid.syntax--deprecated {
+  font-style: italic;
+  text-decoration: underline;
+  color: #FD5FF1;
+}
+.syntax--invalid.syntax--illegal {
+  color: #FD5FF1;
+  background-color: rgba(86, 45, 86, 0.75);
+}
+.syntax--text .syntax--source {
+  background-color: rgba(177, 179, 186, 0.03);
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  font-style: italic;
+  color: #9B5C2E;
+}
+.syntax--string.syntax--quoted .syntax--source {
+  color: #DAEFA3;
+}
+.syntax--string .syntax--constant {
+  color: #DDF2A4;
+}
+.syntax--string.syntax--regexp {
+  color: #E9C062;
+}
+.syntax--string.syntax--regexp .syntax--constant.syntax--character.syntax--escape,
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded,
+.syntax--string.syntax--regexp .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
+  color: #CF7D34;
+}
+.syntax--string .syntax--variable {
+  color: #8A9A95;
+}
+.syntax--support.syntax--function {
+  color: #DAD085;
+}
+.syntax--support.syntax--constant {
+  color: #CF6A4C;
+}
+.syntax--meta.syntax--preprocessor.syntax--c {
+  color: #8996A8;
+}
+.syntax--meta.syntax--preprocessor.syntax--c .syntax--keyword {
+  color: #AFC4DB;
+}
+.syntax--entity.syntax--name.syntax--type {
+  text-decoration: underline;
+}
+.syntax--meta.syntax--cast {
+  font-style: italic;
+  color: #676767;
+}
+.syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype,
+.syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype .syntax--entity,
+.syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype .syntax--string,
+.syntax--meta.xml-processing,
+.syntax--meta.xml-processing .syntax--entity,
+.syntax--meta.xml-processing .syntax--string {
+  color: #494949;
+}
+.syntax--meta.syntax--tag,
+.syntax--meta.syntax--tag .syntax--entity {
+  color: #89BDFF;
+}
+.syntax--source .syntax--entity.syntax--name.syntax--tag,
+.syntax--source .syntax--entity.syntax--other.syntax--attribute-name,
+.syntax--meta.syntax--tag.syntax--inline,
+.syntax--meta.syntax--tag.syntax--inline .syntax--entity {
+  color: #E0C589;
+}
+.syntax--entity.syntax--name.syntax--tag.syntax--namespace,
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--namespace {
+  color: #E18964;
+}
+.syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--name.syntax--tag {
+  color: #CDA869;
+}
+.syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--tag.syntax--pseudo-class {
+  color: #8F9D6A;
+}
+.syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #8B98AB;
+}
+.syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
+  color: #9B703F;
+}
+.syntax--support.syntax--type.syntax--property-name.syntax--css {
+  color: #C5AF75;
+}
+.syntax--meta.property-group .syntax--support.syntax--constant.syntax--property-value.syntax--css,
+.syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--property-value.syntax--css {
+  color: #F9EE98;
+}
+.syntax--meta.syntax--preprocessor.syntax--at-rule .syntax--keyword.syntax--control.syntax--at-rule {
+  color: #8693A5;
+}
+.syntax--meta.syntax--property-value .syntax--support.syntax--constant.named-color.syntax--css,
+.syntax--meta.syntax--property-value .syntax--constant {
+  color: #DD7B3B;
+}
+.syntax--meta.syntax--constructor.syntax--argument.syntax--css {
+  color: #8F9D6A;
+}
+.syntax--meta.syntax--diff,
+.syntax--meta.syntax--diff.syntax--header {
+  font-style: italic;
+  color: #F8F8F8;
+  background-color: #0E2231;
+}
+.syntax--markup.syntax--deleted {
+  color: #F8F8F8;
+  background-color: #420E09;
+}
+.syntax--markup.syntax--changed {
+  color: #F8F8F8;
+  background-color: #4A410D;
+}
+.syntax--markup.syntax--inserted {
+  color: #F8F8F8;
+  background-color: #253B22;
+}
+.syntax--markup.syntax--italic {
+  font-style: italic;
+  color: #E9C062;
+}
+.syntax--markup.syntax--bold {
+  font-weight: bold;
+  color: #E9C062;
+}
+.syntax--markup.syntax--underline {
+  text-decoration: underline;
+  color: #E18964;
+}
+.syntax--markup.syntax--quote {
+  font-style: italic;
+  color: #E1D4B9;
+  background-color: rgba(254, 224, 156, 0.07);
+}
+.syntax--markup.syntax--heading,
+.syntax--markup.syntax--heading .syntax--entity {
+  color: #FEDCC5;
+  background-color: #632D04;
+}
+.syntax--markup.syntax--list {
+  color: #E1D4B9;
+}
+.syntax--markup.syntax--raw {
+  color: #578BB3;
+  background-color: rgba(177, 179, 186, 0.03);
+}
+.syntax--markup .syntax--comment {
+  font-style: italic;
+  color: #F67B37;
+}
+.syntax--meta.syntax--separator {
+  color: #60A633;
+  background-color: #242424;
+}
+.syntax--meta.line.syntax--entry.logfile,
+.syntax--meta.line.syntax--exit.logfile {
+  background-color: rgba(238, 238, 238, 0.16);
+}
+.syntax--meta.line.syntax--error.logfile {
+  background-color: #751012;
+}
+</style>
+        </head>
+        <body class='markdown-preview' data-use-github-style><h1 id="ai-studio-workshops">AI Studio Workshops</h1>
+<p>This code supports workshops taught by members of the Quartz AI Studio for getting journalists learning machine learning.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>Quartz AI Studio: <a href="https://qz.ai">https://qz.ai</a></li>
+<li>fast.ai: <a href="https://fast.ai">https://fast.ai</a></li>
+<li>practical deep learning: <a href="https://course.fast.ai/">https://course.fast.ai/</a></li>
+</ul>
+<h2 id="a-note-about-notebooks">A note about notebooks</h2>
+<p>These workshops exist in Jupyter Notebooks (formerly IPython notebooks, which is why notebook files end in <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">.ipynb</code>). Because we'll be doing machine learning, we also need a GPU, which is a fast parallel-processor that speeds up the math we use for training models. </p>
+<p>At the time of this writing, the <a href="https://colab.research.google.com">Google Colaboratory</a> platform provides both a notebook enviroment <em>and</em> a GPU for free. So these notebooks are designed to work particularly well with Google Colab.</p>
+<p>If you know how to spin up another platform – such as Amazon's EC2 – the notebooks should work there, too.</p>
+<h2 id="getting-started-with-google-colab">Getting started, with Google Colab</h2>
+<p>Here's how to get started with these workshops using Google Colaboatory.</p>
+<ul>
+<li>Go to <a href="https://colab.research.google.com">Google Colaboratory</a>.</li>
+<li>In the top bar of the welcome window, pick "Github."</li>
+<li>Enter <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">quartz</code> on the long blue line and press Return.</li>
+</ul>
+<img width="600" alt="Choose Github" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/pick_github2.jpg"> 
+
+<ul>
+<li>From the list that appears, make sure <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">aistudio-workshops</code> is the selected repository and then click on the notebook for the lesson you'd like.</li>
+</ul>
+<img width="600" alt="Pick the notebook matching the lesson" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/pick_notebook_v3.jpg"> 
+
+<ul>
+<li>For many (though not all) of these lessons, we'll want to turn on the GPU. From the "Runtime" menu, pick "Change runtime type."</li>
+</ul>
+<img width="400" alt="Pick change runtime type" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/change_runtime.jpg"> 
+
+<ul>
+<li>Then form the "Hardware accellerator" dropdown, pick "GPU."</li>
+</ul>
+<img width="400" alt="Pick GPU" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/pick_gpu.jpg"> 
+
+<ul>
+<li>You want to run the first code cell in the notebook, by tapping the "play" button on the cell that includes the code <code style="font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;">## ALL GOOGLE COLAB USERS RUN THIS CELL</code></li>
+</ul>
+<img width="700" alt="Play the first code cell of the notebook" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/play_first_cell.jpg"> 
+
+<ul>
+<li>You may get one or two warnings, which you can safely dismiss:</li>
+</ul>
+<img width="500" alt="Click through the first warning" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/non_google_warning.jpg"> 
+
+<img width="500" alt="Click through the second warning" src="/Users/jkeefe/Code/quartz/aistudio-workshops/images/reset_runtimes.jpg"> 
+
+<p>You're all set!</p></body>
+      </html>
