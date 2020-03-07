@@ -1,13 +1,14 @@
 # AI Studio Workshops
 
-This code supports workshops taught by members of the Quartz AI Studio for getting journalists learning machine learning.
+## Welcome
 
-## Resources
+The code here supports workshops taught by members of the Quartz, helping journalists learning machine learning.
 
-- Quartz AI Studio: https://qz.ai
-- fast.ai: https://fast.ai
-- practical deep learning: https://course.fast.ai/
+The key materials are in the `notebooks` folder. More on that below.
 
+## Videos
+
+Many of the notebooks in the `notebooks` folder pair up with [a set of videos](https://qz.ai/series-machine-learning-videos/) originally recorded for an online class provided by the [UT Knight Center for Journalism in the Americas](https://knightcenter.utexas.edu/). They are now online for free!
 
 ## A note about notebooks
 
@@ -51,4 +52,9 @@ Here's how to get started with these workshops using Google Colaboatory.
 
 You're all set!
 
+## More resources
+
+- Examples, walk-throughs and other materials are available at the [Quartz AI Studio](https://qz.ai) website.
+- Many of the projects here use the great library made by [fast.ai](https://fast.ai)
+- Some of the notebooks are also based on what we learned taking fast.ai's great [practical deep learning class](https://course.fast.ai/), which you should consider, too!
 
